@@ -1,0 +1,31 @@
+body {
+    margin: 25% 25%;
+    background-color: rgb(143, 201, 255);
+}
+
+#container {
+    border: solid;
+    text-align: center;
+    box-shadow: -2px 10px 20px  rgb(41, 40, 40);
+}
+#number
+{
+    font-size: 200px;
+    font-family: Helvetica;
+    text-shadow: -2px 10px 20px  rgb(41, 40, 40);
+
+}
+.buttons
+{
+    font-size: 1.5em;
+    background-color: rgb(0, 255, 255);
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.25;
+
+
+}
+
+.buttons:hover   {
+    background-color:rgb(5, 156, 156) ;
+}
